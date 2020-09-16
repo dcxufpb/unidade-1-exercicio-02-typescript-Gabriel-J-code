@@ -20,7 +20,7 @@ function imprime_dados_loja() {
 	"CEP:" + dados.cep + " Tel " + dados.telefone + 
 	dados.observacao + 
 	"CNPJ: " + dados.cnpj + 
-	"IE: " + dados.inscricao_estadual + ;
+	"IE: " + dados.inscricao_estadual;
 	return aux;
 }
 
