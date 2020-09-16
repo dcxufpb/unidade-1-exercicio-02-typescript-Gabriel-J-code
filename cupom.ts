@@ -14,13 +14,13 @@ let dados = {
 };
 
 function imprime_dados_loja() {
-	var aux= dados.nome_loja +
-	dados.logradouro + ", " + dados.numero.toString() + " " + dados.complemento +
-	dados.bairro + " - " + dados.municipio + " - " + dados.estado + 
-	"CEP:" + dados.cep + " Tel " + dados.telefone + 
-	dados.observacao + 
-	"CNPJ: " + dados.cnpj + 
-	"IE: " + dados.inscricao_estadual;
+	var aux: string = dados.nome_loja + "\n"+
+	dados.logradouro + ", " + dados.numero.toString() + " " + dados.complemento +"\n"+
+	dados.bairro + " - " + dados.municipio + " - " + dados.estado + "\n" +
+	"CEP:" + dados.cep + " Tel " + dados.telefone + "\n" +
+	dados.observacao + "\n" +
+	"CNPJ: " + dados.cnpj + "\n" +
+	"IE: " + dados.inscricao_estadual + "\n"
 	return aux;
 }
 

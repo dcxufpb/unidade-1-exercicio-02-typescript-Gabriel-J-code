@@ -28,12 +28,12 @@ test('Exercício 2 - tudo vazio', () => {
   cupom.dados.inscricao_estadual = "";
 
   expect(cupom.imprime_dados_loja()).toBe(
-    `
-    , 0 
-     -  - 
-    CEP: Tel 
-    CNPJ: 
-    IE: 
+  	`
+  	, 0 
+  	 -  - 
+  	CEP: Tel 
+  	CNPJ: 
+  	IE: 
 `);
 });
 
