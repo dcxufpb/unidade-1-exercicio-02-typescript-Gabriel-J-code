@@ -14,8 +14,14 @@ let dados = {
 };
 
 function imprime_dados_loja() {
-  // Implemente aqui
-  return "";
+	var aux: string = dados.nome_loja + "\n"+
+	dados.logradouro + ", " + dados.numero.toString() + " " + dados.complemento +"\n"+
+	dados.bairro + " - " + dados.municipio + " - " + dados.estado + "\n" +
+	"CEP:" + dados.cep + " Tel " + dados.telefone + "\n" +
+	dados.observacao + "\n" +
+	"CNPJ: " + dados.cnpj + "\n" +
+	"IE: " + dados.inscricao_estadual + "\n"
+	return aux;
 }
 
 module.exports = {
